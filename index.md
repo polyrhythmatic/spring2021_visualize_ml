@@ -13,6 +13,12 @@ This course will introduce students to the subject of machine learning and its a
 ## Teachers
 * [Seth Kranzler](mailto:kranzles@newschool.edu)
 
+## Where and when
+
+The class will be held Wednesdays from 7-9:40pm ET at [this zoom link](https://newschool.zoom.us/j/93220284435?pwd=eEJlcXZScFVEVXUxZnlPVUhBVjY1QT09)
+
+The first half of the class on 1/27 will be a special joing session between classes, the link is [here](https://newschool.zoom.us/j/92628918173)
+
 ## Course Outline
 
 Please note - course outline is subject to change during the semester. Please pay attention to emails and check the site regularly for updates.

@@ -7,6 +7,17 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Week 4 (due 2/17)
+
+* Read
+  * [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/) - you should have read by now, but we will discuss in class again
+  * [Creative AI](https://medium.com/@creativeai/creativeai-9d4b2346faf3) - optional reading, will discuss in class
+
+* Code
+  * Review the notes from class and be sure you understand the concept of the perceptron
+  * Watch videos/read articles if unclear
+  * Try implementing the perceptron on another dataset
+
 ## Week 3 (due 2/10)
 
 * Read

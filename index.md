@@ -19,6 +19,8 @@ The class will be held Wednesdays from 7-9:40pm ET at [this zoom link](https://n
 
 The first half of the class on 1/27 will be a special joing session between classes, the link is [here](https://newschool.zoom.us/j/92628918173)
 
+There is a slack channel for the course which can be joined [here](https://join.slack.com/t/newschool-ado7747/shared_invite/zt-mlizy2io-8DJaPwFLkyFVgC7aXal0gQ). Given the asynchronous nature of this class across multiple time zones, this may be the best way to trouble shoot code issues and address questions.
+
 ## Course Outline
 
 Please note - course outline is subject to change during the semester. Please pay attention to emails and check the site regularly for updates.

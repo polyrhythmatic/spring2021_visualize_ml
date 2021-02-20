@@ -10,3 +10,5 @@ permalink: /notebooks
 * [Week 3 - Numpy, Pandas, and Classification](https://github.com/channelstudio/spring2021_visualize_ml/blob/master/notebooks/Numpy%2C%20Pandas%2C%20and%20Classification.ipynb)
 
 * [Week 4 - Perceptrons](https://github.com/channelstudio/spring2021_visualize_ml/blob/master/notebooks/Perceptrons.ipynb)
+
+* [Week 5 - Scraping](https://github.com/channelstudio/spring2021_visualize_ml/blob/master/notebooks/Scraping.ipynb)

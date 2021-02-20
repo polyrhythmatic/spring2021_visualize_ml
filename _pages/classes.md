@@ -5,6 +5,43 @@ permalink: /classes
 
 # Classes
 
+## Class 5 - 2/17
+
+## Datasets and Scraping
+
+What are datasets? How are they used?
+
+Image Datasets:
+
+* [MNIST](http://yann.lecun.com/exdb/mnist/)
+* [Imagenet](http://www.image-net.org/)
+* [Caltech 256](http://www.vision.caltech.edu/Image_Datasets/Caltech256/%29%C2%A0)
+
+Recommendation Systems:
+
+* [Jester](http://www.ieor.berkeley.edu/~goldberg/jester-data/)
+* [Netflix](http://www.netflixprize.com/)
+
+Music:
+
+* [Million Song dataset](http://labrosa.ee.columbia.edu/millionsong/)
+
+Other interesting datasets:
+
+* [Macauly Library](https://www.macaulaylibrary.org/)
+* [Project Gutenberg](https://www.gutenberg.org/)
+* [Ebony Magazine Archive](https://www.theatlantic.com/entertainment/archive/2019/07/ebony-magazine-archives-sold-nmaahc-getty/595171/)
+* [Watercolor World](https://www.watercolourworld.org/)
+* [Filmgrab](https://film-grab.com/)
+
+## Scraping datasets
+
+Can't find a way to download what you want? First try seeing if anyone else has downloaded it yet. Is there a download functionality? Try contacting someone and seeing if they'll share the data.
+
+[Is scraping legal?](https://www.theverge.com/2019/9/10/20859399/linkedin-hiq-data-scraping-cfaa-lawsuit-ninth-circuit-ruling)
+
+You still need to keep copyright in mind - you could violate copyright by redisplaying content.
+
 ## Class 4 - 2/10
 
 ## Perceptrons

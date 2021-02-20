@@ -7,6 +7,14 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Week 5 (due 2/24)
+
+* Read
+  * [Excavating AI](https://www.excavating.ai/)
+
+* Code
+  * Continue trying to scrape websites using what we covered in class.
+
 ## Week 4 (due 2/17)
 
 * Read

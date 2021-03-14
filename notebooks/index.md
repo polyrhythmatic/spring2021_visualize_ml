@@ -14,3 +14,5 @@ permalink: /notebooks
 * [Class 5 - Scraping](https://github.com/channelstudio/spring2021_visualize_ml/blob/master/notebooks/Scraping.ipynb)
 
 * [Class 6 - Multilayer Perceptron](https://github.com/channelstudio/spring2021_visualize_ml/blob/master/notebooks/Multilayer%20Perceptron.ipynb)
+
+* [Class 7 - Image Sorting](https://github.com/channelstudio/spring2021_visualize_ml/blob/master/notebooks/Image%20Sorting.ipynb)

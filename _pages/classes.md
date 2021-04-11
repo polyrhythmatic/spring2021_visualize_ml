@@ -5,6 +5,110 @@ permalink: /classes
 
 # Classes
 
+## Class 10 - 4/7
+## Semantic organization of text
+
+Analyzing text:
+
+* text is messy - machine learning algorithms like well defined, fixed length inputs and outputs
+
+Bag of words model:
+
+* The bag-of-words model is a way of representing text data when modeling text with machine learning algorithms. We will use it for feature extraction on text.
+
+Bag of words (BOW) is a representation of text that describes the occurance of words within a document
+
+It measures:
+* the vocabulary of words in the document
+* the measure of presence of known words
+
+It's call bag of words because we discard the structure of the words and focus only on whether or not the words appear in the document and how frequently, and not where they occur or in what order
+
+There are a few different ways to approach bag of words:
+
+Count Occurance
+
+Let's look at an example:
+
+* He drinks a whiskey drink
+* He drinks a vodka drink
+* He drinks a lager drink
+* He drinks a cider drink
+
+We can look at each line as a "document". First - what is the unique vocabulary of this document? (ignoring case and punctuation)
+
+* he
+* drinks
+* a
+* whiskey
+* drink
+* vodka
+* lager
+* cider
+
+This is a unique vocabulary of 8 words out of a corpus of 20
+
+Next we create document vectors - the goal is to turn each document into a vector of that we can use as input or output for a model. We have a vocabulary of 8 so our vector length is 8. Thus, our first document becomes:
+
+[1, 1, 1, 1, 1, 0, 0, 0]
+
+For large corpus, we get something called a sparse vector - tons of vocabulary so vectors have many zeros - sparse vectors are harder to compute. We can ignore stop words, punctuation, case, fix mispellings, stemming (play -> playing). The problem with this solution is it high frequency words can dominate the model and cause bias. Think about it - less frequent words might be more important
+
+TF-IDF
+
+TF-IDF takes another approach - that high frequency may not able to provide much information gain. In another word, rare words contribute more weights to the model.
+
+Term Frequency: a scoring of the frequency of the word in the current document.
+Inverse Document Frequency: a scoring of how rare the word is across documents.
+
+The scores are a weighting where not all words are equally as important or interesting.
+
+Term Frequency (TF): is a scoring of the frequency of the word in the current document. Since every document is different in length, it is possible that a term would appear much more times in long documents than shorter ones. The term frequency is often divided by the document length to normalize.
+
+```none
+      number of times term t appears in the document
+tf =   ------------------------------------------
+          total number of terms in the document
+```
+<br>
+
+Inverse Document Frequency (IDF): is a scoring of how rare the word is across documents. IDF is a measure of how rare a term is. The rarer the term, the higher the IDF score.
+
+```none
+                total number of documents
+idf = loge(-----------------------------------)
+           number of documents with term in it
+```
+
+<br>
+tfidf is the multiplication of these two factors
+
+```none
+tfidf = tf * idf
+```
+
+Doc2vec
+
+Distributed Representations of Sentences and Documents - introduced in 2014 [https://arxiv.org/abs/1405.4053](https://arxiv.org/abs/1405.4053). We will use it to perform feature extraction on a corpus. Unlike bag of words models, the idea with Doc2Vec is to maintain the the ordering and semantics of the words. This should give us better features than tfidf.
+
+The idea for doc2vec started with Word2Vec. Word2vec is a three layer neural network with one input, one hidden and an output layer. The input layer corresponds to signals for context (surrounding words) and output layer correspond to signals for predicted target word. As the training procedure repeats this process over large number of sentences (or phrases), the weights “stabilize”. These weights are then used as the vectorized representations of words.
+
+Additional Resources:
+
+* [Reading and Writing Electronic Text by Allison Parrish (syllabus)](http://rwet.decontextualize.com/)
+* [Document Embedding Techniques](https://towardsdatascience.com/document-embedding-techniques-fed3e7a6a25d)
+* [An Introduction to Bag-of-Words in NLP](https://medium.com/greyatom/an-introduction-to-bag-of-words-in-nlp-ac967d43b428)
+* [3 basic approaches in Bag of Words which are better than Word Embeddings](https://towardsdatascience.com/3-basic-approaches-in-bag-of-words-which-are-better-than-word-embeddings-c2cbc7398016)
+* [A Gentle Introduction to the Bag-of-Words Model](https://machinelearningmastery.com/gentle-introduction-bag-words-model/)
+* [How does doc2vec represent feature vector of a document?](https://www.quora.com/How-does-doc2vec-represent-feature-vector-of-a-document-Can-anyone-explain-mathematically-how-the-process-is-done/answer/Piyush-Bhardwaj-7)
+* [A gentle introduction to Doc2Vec](https://medium.com/wisio/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
+* [Doc2vec tutorial](https://rare-technologies.com/doc2vec-tutorial/)
+* [Distributed Representations of Sentences and Documents](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+* [Doc2Vec to wikipedia articles](https://markroxor.github.io/gensim/static/notebooks/doc2vec-wikipedia.html)
+* [Gensim: Core Concepts](https://radimrehurek.com/gensim/auto_examples/core/run_core_concepts.html)
+* [Gensim: Doc2Vec](https://radimrehurek.com/gensim/auto_examples/tutorials/run_doc2vec_lee.html)
+
+
 ## Class 7 - 3/10
 
 ## Feature extraction and exploration methodologies

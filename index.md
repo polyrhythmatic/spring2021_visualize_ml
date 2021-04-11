@@ -35,9 +35,9 @@ Please note - course outline is subject to change during the semester. Please pa
 | 6    | 2/24  | Class cancelled                                                           |
 | 7    | 3/3   | Roll your own Neural Network                                              |
 | 8    | 3/10  | Feature extraction and exploration methodologies, introducing the midterm |
-| 9    | 3/24  | Semantic organization and classification of text, midterm proposals due   |
+| 9    | 3/24  | One on one midterm review, midterm proposals due                          |
 | 10   | 3/31  | Midterm presentations                                                     |
-| 11   | 4/7   | Special Topic                                                             |
+| 11   | 4/7   | Semantic organization and classification of text                          |
 | 12   | 4/14  | Using WebGL for interactive web spaces                                    |
 | 13   | 4/21  | Creating user interfaces with React                                       |
 | 14   | 4/28  | Work session                                                              |

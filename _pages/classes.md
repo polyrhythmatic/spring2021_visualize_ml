@@ -5,6 +5,44 @@ permalink: /classes
 
 # Classes
 
+## Class 11 - 4/14
+
+## Using WebGL for interactive web spaces
+
+Making web apps 
+
+What makes up a website?
+
+HTML
+* markup - this is the structure of the website
+* this isn't just for visual effect - screen readers can also make sense of this
+* different html elements
+
+CSS
+* css is for styling webpages visually but also impacts the accessibility of the website
+* respect CSS! it's very difficult to do well
+
+Javscript
+* the interactive part of webpages
+* created by netscape in 1995 over the span of two weeks
+* most websites are now built almost entirely with javascript
+
+Why use webgl?
+* more performant
+* leverages the GPU
+* computers are really good at displaying bitmaps (images)
+
+For this class, we will look at using PIXI.js, a performant game engine which can also be used for interactive browser-based 2D graphics. You can read more about it [here](https://www.pixijs.com/)
+
+First, we bulk resize our images using the jupyter notebook for resizing images.
+
+We also need to export the positions from our audio or image notebook. Both have been updated to export the JSON from those files.
+
+You can find the code [here](https://github.com/channelstudio/spring2021_visualize_ml/tree/master/web_examples)
+
+Additional resources:
+* [kittykatattack's Learning Pixi](https://github.com/kittykatattack/learningPixi) - note this is for v4.5, PIXI is now on v5 so there may be some differences
+
 ## Class 10 - 4/7
 ## Semantic organization of text
 

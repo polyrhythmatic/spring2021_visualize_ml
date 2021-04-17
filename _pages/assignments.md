@@ -7,6 +7,20 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Class 10
+
+The Final (due 5/5)
+
+Using what we've learned in the class, create a web interface for exploring a dataset. This interface can be portal into a museum collection, a tool that aids in the creative process, or a continuation of your exploration for the midterm. 
+
+Metrics for grading:
+* 25% - Originality of concept - Does the project explore an original and novel concept?
+* 25% - Fit and finish - Is the project finished? Was there clearly thought put into this?
+* 25% - Theme - Did the project follow the prompt?
+* 25% - Presentation - Is the presentation coherent and thoughtful?
+
+IMPORTANT - email me a proposal for your final by next week, due 4/21
+
 ## Class 7
 
 The Midterm (due 3/31), proposal due 3/24

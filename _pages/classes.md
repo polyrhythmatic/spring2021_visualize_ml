@@ -5,6 +5,83 @@ permalink: /classes
 
 # Classes
 
+## Class 12 - 4/21
+
+## Creating user interfaces with React
+
+What is a single page app?
+
+["A single-page application (SPA) is a web application or web site that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server. This approach avoids interruption of the user experience between successive pages, making the application behave more like a desktop application."](https://en.wikipedia.org/wiki/Single-page_application)
+
+React is JavaScript library from Facebook, that is designed to create interactive UIs.
+
+[https://reactjs.org/](https://reactjs.org/)
+
+Other libraries for single page apps
+* vuejs
+* angular
+* ember
+
+
+Current frameworks
+
+The latest in web technologies is using something called a framework. A web application framework is designed to facilitate the development of dynamic websites - sites where the content can change dynamically
+
+Examples of sites using web frameworks: 
+* Facebook
+* Airbnb
+* Instagram
+
+Advantages:
+* designed for interactivity
+* frameworks are stateful - logic follows state instead of jquery soup
+* allows creation of reusable components
+* (sometimes) faster rendering
+* fast to develop in (once you learn it)
+* very popular
+
+Disadvantages:
+* renders in browser - susceptible to performance issues
+* somewhat steep learning curve - this has gotten better recently
+* can be overkill for certain applications
+* How long will your framework be around for? They are changing constantly...
+
+Component based workflow: Your user interface is a collection of components. This is really great for staying organized when building UI's. React uses the virtual dom to run very fast and render only the parts of the site that have changed.
+
+Getting set up:
+
+The back end for all of this is Node.js. Node.js is javascript that runs server-side using Chrome's V8 engine. To start, we need to install node:
+
+```bash
+$ brew install node
+```
+
+This should give us access to npx and npm - the Node.js [package manager](https://www.npmjs.com/) and [package runner](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b). Node Package Manager (NPM) is where all our different frameworks and javascript libraries live - you can think of it as pip for javascript. You might also see another package manager called yarn - this was created by Facebook in order to deal with issues with NPM that have now been solved. ~~You can use NPM in place of Yarn - more [here](https://iamturns.com/yarn-vs-npm-2018/).~~ I've been having issues with `npm` on create-react-app, so I'd advise using `yarn` instead. The commands are mostly the same.
+
+We will be using a starter command called create-react-app. It's a really great way to get everything set up with minimal effort. You can read more [here](https://github.com/facebook/create-react-app)
+
+Simply run:
+
+```bash
+$ npx create-react-app my-app
+```
+
+If you get a cryptic error like I was, you can run the following command:
+
+```bash
+$ npm i babel-preset-react-app@7.0.0
+```
+
+React uses something called JSX - this is a combination of html and javascript. You can use react without JSX, but it isn't recommended.
+
+
+Resources:
+
+* [Level Up Tuts - What Is React?](https://www.youtube.com/watch?v=0KlRgFEEz0g)
+* [Level Up Tuts - React Hooks](https://www.youtube.com/watch?v=53hx4eF5ZT0&list=PLLnpHn493BHEnjBl-ByuFQgRuXm2oIi3e)
+* [Level Up Tuts - React 16 For Everyone](https://www.youtube.com/watch?v=omTwUHbyIBk&list=PLLnpHn493BHGW9YuiW8y9qHf-wHk_BKpe)
+* [Ameilia Wattenberger - Thinking in React Hooks](https://wattenberger.com/blog/react-hooks)
+
 ## Class 11 - 4/14
 
 ## Using WebGL for interactive web spaces

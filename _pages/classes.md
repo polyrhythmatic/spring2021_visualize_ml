@@ -74,6 +74,8 @@ $ npm i babel-preset-react-app@7.0.0
 
 React uses something called JSX - this is a combination of html and javascript. You can use react without JSX, but it isn't recommended.
 
+You can find the code from the class [here](https://github.com/channelstudio/spring2021_visualize_ml/tree/master/web_examples)
+
 
 Resources:
 

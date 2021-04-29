@@ -1,0 +1,12 @@
+.Overlay {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Overlay img {
+  width: 100px;
+}
